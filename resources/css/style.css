@@ -1,0 +1,100 @@
+/* -------------------------------------------- */
+/* BASIC SETUP */
+/* -------------------------------------------- */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  background: #fff;
+  color:#555;
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+/* -------------------------------------------- */
+/* REUSEABLE COMPONENTS */
+/* -------------------------------------------- */
+
+.row{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+h1{
+  color: #fff;
+  line-height: 150%;
+  letter-spacing: 5px;
+  font-size: 250%;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* ---------bottun---------- */
+.btn{
+  color: #fff;
+  border: 1px solid #2ecc71;
+  border-radius: 200px;
+  padding: 10px 25px;
+  transition: all 0.3s;
+}
+
+.full{
+  background-color: #2ecc71;
+  margin-right: 20px;
+}
+
+.full:hover{
+  background-color: #25a25a;
+}
+
+.ghost:hover{
+  background-color: #25a25a;
+  color: #fff;
+}
+
+/* -------------------------------------------- */
+/* HEADER */
+/* -------------------------------------------- */
+
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./img/hero.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.main-nav{
+  padding-top: 50px;
+  list-style: none;
+  float: right;
+}
+
+.main-nav li{
+  float: left;
+}
+
+.main-nav li a{
+  color: #fff;
+  font-size: 90%;
+  margin-right: 40px;
+  padding: 5px;
+  transition: all 0.3s;
+}
+
+.main-nav li a:hover{
+  border-bottom: 2px solid #2ecc71;
+}
+
+.hero-text-box{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
