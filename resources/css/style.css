@@ -107,7 +107,8 @@ a{
 }
 
 /* ---------bottun---------- */
-.btn{
+.btn,
+input[type="submit"]{
   color: #fff;
   border: 1px solid #2ecc71;
   border-radius: 200px;
@@ -115,7 +116,8 @@ a{
   transition: all 0.3s;
 }
 
-.full{
+.full,
+input[type="submit"]{
   background-color: #2ecc71;
   margin-right: 20px;
 }
@@ -124,7 +126,8 @@ a{
   color: #2ecc71;
 }
 
-.full:hover{
+.full:hover,
+input[type="submit"]:hover{
   background-color: #25a25a;
 }
 
@@ -295,3 +298,34 @@ cite{
   font-size: 90%;
   line-height: 200%;
 }
+
+/* -------------------------------------------- */
+/* FORM */
+/* -------------------------------------------- */
+
+.contact-form{
+  margin-top: 50px;
+}
+
+.contact{
+  display: flex;
+  width: 60%;
+  margin: 20px auto;
+}
+
+input[type=text],
+select,
+textarea{
+  width: 100%;
+  padding: 8px;
+}
+
+textarea{
+  height: 100px;
+}
+
+input[type=checkbox]{
+  margin: 10px 10px 10px 0;
+}
+
+*:focus{outline: none;}
