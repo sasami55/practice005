@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 html{
@@ -100,6 +101,11 @@ a{
   font-size: 250%;
 }
 
+.icon-small{
+  color: #2ecc71;
+  margin-right: 10px;
+}
+
 /* ---------bottun---------- */
 .btn{
   color: #fff;
@@ -112,6 +118,10 @@ a{
 .full{
   background-color: #2ecc71;
   margin-right: 20px;
+}
+
+.ghost{
+  color: #2ecc71;
 }
 
 .full:hover{
@@ -200,13 +210,17 @@ header{
 /* CITIES */
 /* -------------------------------------------- */
 
-/* .section-cities{
-  background: rgb(230, 230, 230);
-} */
+.section-cities{
+  background: rgb(240, 240, 240);
+}
 
 .box img{
   width: 100%;
   height: auto;
+}
+
+.box li{
+  margin-bottom: 8px;
 }
 
 /* -------------------------------------------- */
@@ -245,4 +259,39 @@ cite{
 
 .section-testimonial i{
   margin-right: 10px;
+}
+
+/* -------------------------------------------- */
+/* PLANS */
+/* -------------------------------------------- */
+
+.section-plans{
+  background: rgb(240, 240, 240);
+}
+
+.plan-box{
+  margin-top: 50px;
+  width: 90%;
+  padding-left: 5%;
+}
+
+.plan-box div{
+  padding: 30px;
+  background: #fff;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.plan-box div:last-child{
+  text-align: center;
+}
+
+.price{
+  font-size: 300%;
+  font-weight: 100;
+  color: #2ecc71;
+}
+
+.plan-box li{
+  font-size: 90%;
+  line-height: 200%;
 }
