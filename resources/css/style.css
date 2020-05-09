@@ -129,6 +129,7 @@ a{
 
 header{
   background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./img/hero.jpg);
+  background-attachment: fixed;
   background-size: cover;
   height: 100vh;
 }
@@ -193,4 +194,55 @@ header{
 .photos img:hover{
   opacity: 1;
   transform: scale(1.04);
+}
+
+/* -------------------------------------------- */
+/* CITIES */
+/* -------------------------------------------- */
+
+/* .section-cities{
+  background: rgb(230, 230, 230);
+} */
+
+.box img{
+  width: 100%;
+  height: auto;
+}
+
+/* -------------------------------------------- */
+/* TESTIMONIAL */
+/* -------------------------------------------- */
+
+.section-testimonial{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(./img/back-customers.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.span_1_of_3{
+  display: inline-block;
+}
+
+blockquote{
+  font-style: italic;
+  line-height: 145%;
+  margin-top: 30px;
+}
+
+blockquote:before{
+  content: "\201C";
+  display: block;
+  font-size: 400%;
+  color: #2ecc71;
+}
+
+cite{
+  display: block;
+  margin-top: 20px;
+  font-size: 90%;
+}
+
+.section-testimonial i{
+  margin-right: 10px;
 }
