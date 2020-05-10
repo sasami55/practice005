@@ -1,0 +1,137 @@
+@media only screen and (max-width:1200px){
+  .row{
+    max-width: 100%;
+    padding-left: 4%;
+  }
+  .contact{
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+
+@media only screen and (max-width:1024px){
+  html,
+  body{
+    font-size: 18px;
+  }
+  section{
+    padding: 60px 0;
+  }
+  .box{
+    margin-top: 10px;
+  }
+  h1{
+    font-size: 200%;
+    letter-spacing: 1px;
+  }
+  .long-copy{
+    width: 85%;
+    margin-left: 7%;
+  }
+  .span_1_of_4{
+    width: 45%;
+  }
+  .photos img{
+    height: 130px;
+  }
+  blockquote{
+    width: 90%;
+    margin-top: 20px;
+  }
+  .plan-box{
+    margin-top: 20px;
+  }
+  .contact{
+    width: 90%;
+    margin-left: 5%;
+  }
+  .footer-nav li{
+    display: block;
+    margin-right: 0;
+  }
+  .social-links{
+    margin-top: 30px;
+  }
+  input[type=text],
+  select,
+  textarea{
+  padding: 5px;
+}
+}
+
+
+@media only screen and (max-width:767px){
+  html,
+  body{
+    font-size: 16px;
+  }
+  .row{
+    padding-left: 2%;
+  }
+  section{
+    padding: 25px 0;
+  }
+  .main-nav{
+    display: none;
+  }
+  .hero-text-box{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+  }
+  h1{
+    font-size: 180%;
+  }
+  h2{
+    font-size: 150%;
+  }
+  .btn,
+  input[type="submit"]{
+  padding: 5px 15px;
+}
+  .photos img{
+    height:80px;
+  }
+  .span_1_of_3{
+    width: 100%;
+    padding-left: 3%;
+  }
+  blockquote{
+    position: relative;
+  }
+  blockquote:before{
+    position: absolute;
+    top: -5px;
+  }
+  cite{
+    margin-top: 8px;
+    margin-bottom: 20px;
+  }
+  .plan-box h3{
+    margin: 2%;
+  }
+  .plan-box{
+    margin-top: 20px;
+  }
+  .plan-box div{
+    padding: 15px;
+  }
+  .price{
+    font-size: 250%;
+  }
+  .contact{
+    display: block;
+    width:100%;
+  }
+  input[type=text],
+  select,
+  textarea{
+  width: 120%;
+  padding: 3px;
+}
+  label{
+    display: inline-block;
+    margin-bottom: 3px;
+  }
+}
