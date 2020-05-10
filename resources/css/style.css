@@ -136,6 +136,18 @@ input[type="submit"]:hover{
   color: #fff;
 }
 
+/* ---------links---------- */
+a:link,
+a:visited{
+  text-decoration: none;
+}
+
+a:hover,
+a:active{
+  border-bottom: none;
+}
+
+
 /* -------------------------------------------- */
 /* HEADER */
 /* -------------------------------------------- */
@@ -217,6 +229,16 @@ header{
   background: rgb(240, 240, 240);
 }
 
+.section-cities a{
+  color: #2ecc71;
+  border-bottom: 1px solid #2ecc71;
+}
+
+.section-cities a:hover{
+  color: #555;
+  border-bottom: none;
+}
+
 .box img{
   width: 100%;
   height: auto;
@@ -225,6 +247,8 @@ header{
 .box li{
   margin-bottom: 8px;
 }
+
+
 
 /* -------------------------------------------- */
 /* TESTIMONIAL */
@@ -329,3 +353,64 @@ input[type=checkbox]{
 }
 
 *:focus{outline: none;}
+
+/* -------------------------------------------- */
+/* FOOTER */
+/* -------------------------------------------- */
+
+footer{
+  background: #333;
+  color: #888;
+  padding-bottom: 45px;
+  font-size: 90%;
+}
+
+
+footer ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.why{
+  text-align: right;
+}
+
+.footer-nav a{
+  border-bottom: none;
+  color: #888;
+}
+
+.footer-nav a:hover{
+  color: #ddd;
+}
+
+.social-links a{
+  border-bottom: none;
+  color: #888;
+  font-size: 150%;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-google-plus,
+.fa-instagram{
+  transition: all 0.2s;
+}
+
+.fa-facebook-f:hover{
+  color: #3b5999;
+}
+.fa-twitter:hover{
+  color: #55acee;
+}
+.fa-google-plus:hover{
+  color: #dd4b39;
+}
+.fa-instagram:hover{
+  color: #e4405f;
+}
+
+footer p{
+  text-align: center;
+  margin-top: 20px;
+}
