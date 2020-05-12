@@ -450,3 +450,18 @@ footer p{
   text-align: center;
   margin-top: 20px;
 }
+
+
+/* -------------------------------------------- */
+/* ANIMATION */
+/* -------------------------------------------- */
+
+.js--wp-1,
+.js--wp-2{
+  opacity: 0;
+}
+
+.js--wp-1 .animate__animated,
+.js--wp-2 .animate__animated{
+  opacity: 1;
+}
