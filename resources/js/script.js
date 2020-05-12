@@ -1,16 +1,5 @@
 $(document).ready(function () {
 
-    // sticky navigation
-// $('.js--section-feature').waypoint({
-//   handler: function(direction) {
-//     if(direction == 'down'){
-//       $('nav').addClass('sticky');
-//     }else{
-//       $('nav').removeClass('sticky');
-//     }
-//   }
-// })
-
 
     $('.js--section-feature').waypoint(function(direction) {
         if(direction == 'down'){
@@ -19,10 +8,6 @@ $(document).ready(function () {
           $('nav').removeClass('sticky');
         }
     })
-
-
-
-
 
     // navigation button
     $('a[href^="#"]').click(function(){
@@ -33,8 +18,6 @@ $(document).ready(function () {
       $("html, body").animate({scrollTop:position}, speed, "swing");
       return false;
     });
-
-
 
     // scroll event
     $('.js--wp-1').waypoint(function () {
@@ -54,6 +37,19 @@ $(document).ready(function () {
     });
 
 
-    // animate__animated animate__bounce
+      // mobile navigation
+    $('.js--mobile-nav').click(function () {
+      
+      $('.js--main-nav').slideToggle();
 
+      var icon = $('.js--mobile-nav i');
+
+      if(icon.hasClass('fa-bars')){
+        icon.addClass('fa-times');
+        icon.removeClass('fa-bars');
+      }else{
+        icon.addClass('fa-bars');
+        icon.removeClass('fa-times');
+      }
+    });
 });

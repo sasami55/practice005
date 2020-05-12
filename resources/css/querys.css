@@ -74,10 +74,29 @@
   }
   .main-nav{
     display: none;
+    float: left;
+    padding-top: 30px;
+    margin-left: 10%;
+  }
+  .main-nav li{
+    display: block;
+    padding-bottom: 10px;
+    font-size: 110%;
+  }
+  .mobile-nav{
+    display: inline-block;
+  }
+  .sticky .main-nav li {
+    line-height: 0;
+    margin-top: 20px;
+  }
+  .sticky .main-nav li a{
+    line-height: 0;
+    font-size: 110%;
   }
   .hero-text-box{
     position: absolute;
-    top: 10%;
+    top: 30%;
     left: 5%;
   }
   h1{
